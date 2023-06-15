@@ -1,0 +1,35 @@
+
+    :root {
+        --color-primary: #5ec576;
+        --color-secondary: #ffcb03;
+        --color-tertiary: #ff585f;
+        --color-primary-darker: #4bbb7d;
+        --color-secondary-darker: #ffbb00;
+        --color-tertiary-darker: #fd424b;
+        --color-primary-opacity: #5ec5763a;
+        --color-secondary-opacity: #ffcd0331;
+        --color-tertiary-opacity: #ff58602d;
+        --gradient-primary: linear-gradient(to top left, #39b385, #9be15d);
+        --gradient-secondary: linear-gradient(to top left, #ffb003, #ffcb03);
+    }
+
+
+html{
+    box-sizing: border-box;
+    font-size: 62.5%; //10px
+}
+
+*,*::before,*::after{
+
+    box-sizing: inherit;
+    margin:0;
+    padding:0;
+}
+
+body {
+    font-family: 'Poppins',sans-serif;
+    font-size: 1.7rem;;
+    line-height: 1.9;
+    color:$color-grey;
+    background-color: $color-light-grey;
+}
